@@ -1,0 +1,6 @@
+@media (max-width: 950px) {
+  .search-filter input {
+    width: 310px;
+    /* width: auto; */
+  }
+}

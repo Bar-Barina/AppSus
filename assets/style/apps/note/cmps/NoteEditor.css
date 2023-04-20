@@ -1,0 +1,63 @@
+.note-editor {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.note-editor .icon-editor {
+    width: 32px;
+    height: 32px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.note-editor .icon-editor:hover {
+    cursor: pointer;
+    background-color: rgba(95, 99, 104, 0.157);
+    border-radius: 50%;
+}
+
+.color-picker {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    width: min-content;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+    z-index: 1;
+}
+
+.color {
+    margin-inline-start: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.color:hover , .none-color:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.icon-trash {
+    width: 32px;
+    height: 32px;
+}
+
+.color-picker .selected
+, .none-color.selected {
+    outline: 2px solid #a142f4;
+}
+
+.none-color {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 50%;
+}

@@ -1,0 +1,116 @@
+.input-line {
+    display: flex;
+}
+
+.icon-list,
+.icon-paint,
+.icon-img {
+    opacity: 0.8;
+    height: 34px;
+    width: 34px;
+    padding-top: 6px;
+    padding-left: 4px;
+    border: none;
+    background-color: inherit;
+}
+
+.icon-list:hover,
+.icon-paint:hover,
+.icon-img:hover {
+    cursor: pointer;
+    opacity: 0.87;
+    background-color: rgba(95, 99, 104, 0.157);
+    border-radius: 50%;
+}
+
+.make-note {
+    margin-top: 20px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 35%);
+    background-color: #fff;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-inline-start: 50%;
+    translate: -50%;
+    text-align: left;
+    width: 80%;
+}
+
+.make-note .btns-create {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.make-note .title-input {
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.make-note .take-note {
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    letter-spacing: 0.2px;
+    color: rgb(32, 33, 36);
+    font-size: 14px;
+}
+
+.make-note-bottom {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.make-note .file {
+    position: relative;
+    display: none;
+}
+
+.make-note label {
+    position: relative;
+    display: inline-block;
+    width: 0;
+}
+
+.make-note input {
+    border: none;
+    background-color: #fff;
+    width: 100%;
+}
+
+.make-note .close {
+    font-weight: 500;
+    z-index: 0;
+    width: 90px;
+    bottom: 0;
+    height: max-content;
+    border: none;
+    background-color: inherit;
+    border-radius: 8px;
+}
+
+.make-note .close:hover {
+    background-color: rgba(95, 99, 104, 0.039);
+}
+
+.make-note input:focus {
+    outline: none;
+}
+
+.make-note .icon-pin {
+    background-color: inherit;
+    opacity: 0.54;
+}
+
+.make-note .icon-pin:hover {
+    cursor: pointer;
+    background-color: rgba(95, 99, 104, 0.157);
+    opacity: 0.87;
+}

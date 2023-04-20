@@ -1,0 +1,10 @@
+@media (max-width: 950px) {
+  .books-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pikachu {
+    margin-top: 100px;
+  }
+}

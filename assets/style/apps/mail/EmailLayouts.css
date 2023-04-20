@@ -1,0 +1,8 @@
+.main-mail-layout {
+  display: grid;
+  grid-template-columns: 20px 256px 1fr 10px;
+}
+
+.email-side-filter {
+  grid-column: 2;
+}

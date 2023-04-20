@@ -1,0 +1,54 @@
+@media (max-width: 1300px) {
+  .home-page {
+    grid-row-gap: 20px;
+    margin-left: 20px;
+  }
+
+  .make-note {
+    width: 600px;
+  }
+
+  .home-img {
+    width: 660px;
+    height: 450px;
+    grid-column: 2;
+  }
+  .home-txt {
+    margin-right: 50px;
+  }
+
+  .home-page h1 {
+    font-size: 50px;
+  }
+  .home-page p {
+    font-size: 14px;
+  }
+  .home-page button {
+    width: 100px;
+    height: 35px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 850px) {
+  .home-page {
+    flex-direction: column;
+  }
+
+  .make-note {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .make-note {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .make-note {
+    width: 200px;
+  }
+}

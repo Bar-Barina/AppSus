@@ -1,0 +1,17 @@
+.book-edit {
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+.book-editor {
+    margin-top: 2em;
+    width: 80%;
+}
+
+.edit-form {
+display: flex;
+}

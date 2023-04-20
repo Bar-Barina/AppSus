@@ -1,0 +1,31 @@
+.user-msg {
+    background-color: rgb(255, 0, 0);
+    padding: 1em;
+    position: absolute;
+    top: 100px;
+    transition: 1s;
+    border-radius: 10px;
+}
+.user-msg.success {
+    right: 0;
+    background-color: var(--green);
+    color: #fff;
+}
+.user-msg.error {
+    right: 0;
+    background-color: lightcoral;
+}
+
+.user-msg button {
+    float: right;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

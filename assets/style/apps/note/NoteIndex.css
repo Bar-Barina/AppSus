@@ -1,0 +1,71 @@
+.main-layout {
+    padding-left: 0;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 160px auto 60px;
+}
+
+.side-bar > * {
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.side-bar span {
+    opacity: 0;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+
+.side-bar {
+    width: 60px;
+    transition: .4s;
+    z-index: 1;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.side-bar:hover span{
+    opacity: 1;
+}
+
+.side-bar:hover {
+    box-shadow: rgba(0, 0, 0, 0.16)  3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 200px;
+}
+
+.icon-side {
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.note-index {
+    grid-column: 2;
+    text-align: center;
+}
+
+.side-bar > *:not(.typeSelected):hover {
+    background-color: #ccc8c8a1;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 95%;
+}
+
+.typeSelected div {
+    background-color: #feefc3;
+}
+
+.typeSelected:hover {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 95%;
+    background-color: #feefc3;
+}

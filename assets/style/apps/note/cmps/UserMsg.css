@@ -1,0 +1,8 @@
+.user-msg {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background-color: azure;
+    width: 150px;
+    height: 50px;
+}

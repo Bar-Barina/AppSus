@@ -1,0 +1,48 @@
+.books-home {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+}
+
+.books-home img {
+  background-color: inherit;
+  box-shadow: none;
+  border: none;
+}
+
+.pikachu {
+  margin-right: 50px;
+  width: 33%;
+}
+
+.vue {
+  width: 40%;
+}
+
+.btn-pikachu,
+.btn-vue {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  border-radius: 15px;
+  width: 150px;
+  padding: 10px;
+  border: none;
+}
+
+.btn-pikachu {
+  margin-top: 20px;
+  background-color: rgb(248, 225, 21);
+}
+
+.btn-pikachu:hover {
+  background-color: rgb(247, 231, 93);
+}
+
+.btn-vue {
+  margin-top: 16px;
+  background-color: rgb(107, 196, 129);
+}
+
+.btn-vue:hover {
+  background-color: rgb(143, 209, 160);
+}

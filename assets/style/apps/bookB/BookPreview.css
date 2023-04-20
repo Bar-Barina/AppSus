@@ -1,0 +1,20 @@
+.book-preview {
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 13px;
+  background-color: rgb(248, 248, 248);
+  height: 100%;
+}
+
+.book-preview img {
+height: 247.13px;
+width: 164.75px;
+}
+
+.actions-container {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+}

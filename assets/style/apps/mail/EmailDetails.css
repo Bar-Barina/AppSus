@@ -1,0 +1,43 @@
+.email-details {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 15px;
+}
+
+.user-img {
+border-radius: 50%;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.user-img-name {
+display: flex;
+align-items: center;
+}
+.user-img-name p {
+font-size: 12px;
+}
+
+.format-name {
+  font-weight: bolder;
+  color: black;
+  font-size: 16px;
+}
+
+.date-and-star {
+  display: flex;
+}
+
+
+.details-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.subject {
+font-size: 25px;
+color: rgb(50, 50, 50);
+}

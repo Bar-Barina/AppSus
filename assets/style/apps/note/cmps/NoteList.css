@@ -1,0 +1,23 @@
+.notes-list {
+    column-width: 200px;
+}
+
+.pinned-notes {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.un-pinned-notes {
+    text-align: left;
+}
+
+.pin-header {
+    color: rgb(96, 96, 96);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-inline-start: 16px;
+    font-family: Roboto , Arial,sans-serif;
+}

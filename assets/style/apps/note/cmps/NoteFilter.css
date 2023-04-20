@@ -1,0 +1,51 @@
+.filter-keep {
+    margin-inline-start: 90px;
+    position: relative;
+    text-align: left;
+    width: 590px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%)
+}
+
+.wrap-icon {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 95, 238, 0.808);
+    color: #fff;
+}
+
+.wrap-icon:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.filter-types {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-keep button {
+    font-size: 1rem;
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    background-color: inherit;
+    border: none;
+}
+
+.filter-keep button:hover {
+    font-size: 1.3rem;
+    color: rgba(0, 95, 238, 0.808);
+}
+
+.filter-keep p {
+    font-size: 14px;
+}
+
+.filter-keep h4 {
+    padding-left: 10px;
+    padding-top: 10px;
+}

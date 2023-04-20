@@ -1,0 +1,26 @@
+.user-review {
+  display: flex;
+  text-align: center;
+  border: 1px solid black;
+  list-style: none;
+  padding: 10px;
+  font-size: 10px;
+  background-color: rgb(240, 240, 240);
+  margin-right: 0;
+}
+
+.reviews {
+  display: flex;
+}
+
+.review-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.review-list-div {
+  grid-column: 2;
+  justify-items: center;
+  margin-left: 2em;
+}

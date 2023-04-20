@@ -1,0 +1,13 @@
+button {
+    cursor: pointer;
+    color: var(--clr5);
+}
+
+.header-search-input{
+    background-color: rgb(232, 237, 249);
+    border: none;
+    border-radius: 10px;
+    width: 45%;
+    width: 600px;
+    padding: 1em;
+  }

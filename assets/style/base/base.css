@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+body {
+  margin: 0;
+  color: var(--clr4);
+  background-color: rgb(246, 248, 252);
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1em;
+  font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+P {
+  margin-left: 7px;
+}
+
+input:hover {
+  background-color: white;
+}
+
+/* Dont stretch my Media */
+img,
+embed,
+video,
+object {
+  max-width: 100%
+}
+
+/* tap targets: */
+/* nav a,
+button {
+  min-width: 48px;
+  min-height: 48px;
+} */
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold
+}
+

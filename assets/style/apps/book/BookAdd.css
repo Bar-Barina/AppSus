@@ -1,0 +1,14 @@
+.google-search {
+    margin-top: 20px;
+}
+
+.google-search button {
+    border: none;
+    background-color: inherit;
+    font-size: 1.5rem;
+}
+
+.google-search button:hover {
+    cursor: pointer;
+    color: red;
+}

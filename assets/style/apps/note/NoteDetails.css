@@ -1,0 +1,22 @@
+.note-details {
+    position: fixed;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.note-details .note-editor {
+    width: 40%;
+}
+
+.note-details .close {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+
+.note-details .color-picker {
+    bottom: -2.5rem;
+}

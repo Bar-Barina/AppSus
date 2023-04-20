@@ -1,0 +1,27 @@
+.user-review {
+    width: 50%;
+    margin-inline-start: 50%;
+    translate: -50%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 1fr;
+    align-items: center;
+}
+
+.user-review h2 {
+    margin: 0;
+}
+
+.user-review button {
+    background-color: inherit;
+    border: none;
+    color: red;
+}
+
+.user-review:hover button {
+    display: block;
+}
+
+.user-review button:hover {
+    cursor: pointer;
+}
